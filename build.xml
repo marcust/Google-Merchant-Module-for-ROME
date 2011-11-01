@@ -63,6 +63,9 @@
 			<fileset dir="${classes}">
 				<include name="**/*.class" />
 			</fileset>
+			<fileset dir=".">
+				<include name="rome.properties" />
+			</fileset>
 			<manifest>
 				<attribute name="Built-By" value="${user.name}" />
 				<attribute name="Git-Branch" value="${git.branch}" />
